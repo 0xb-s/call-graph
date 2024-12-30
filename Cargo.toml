@@ -1,0 +1,25 @@
+[package]
+name = "rust-call-graph"
+version = "0.1.0"
+edition = "2021"
+
+
+[[bin]]
+name = "rust-call-graph"
+path = "src/main.rs"
+
+[dependencies]
+
+syn = { version = "2.0", features = ["full", "visit"] }
+
+
+clap = { version = "4.3", features = ["derive"] }
+
+
+petgraph = "0.6.3"
+
+which = "4.4.0"
+
+thiserror = "1.0"
+
+walkdir = "2.3.2"
