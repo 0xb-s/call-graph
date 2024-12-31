@@ -11,3 +11,5 @@ Requires [Graphviz](https://graphviz.org/) for visualizing the call graph.
 ## How to use ? 
 Run the tool with `cargo run -- --input <path_to_codebase> --output <output_image>`.  
 
+## Note
+This tool can be  useful for auditors.
